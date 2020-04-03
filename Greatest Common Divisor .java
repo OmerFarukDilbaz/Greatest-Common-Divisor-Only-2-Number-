@@ -1,11 +1,13 @@
-Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
         Scanner input2 = new Scanner(System.in);
+        
         System.out.println("Please enter the first number.");
 
         double n1 = input.nextInt();
 
         System.out.println("Please enter the second number.");
-        double n2 = input2.nextInt();
+       
+        double n2 = input2.nextDouble();
 
 
         int gcd = 1;
